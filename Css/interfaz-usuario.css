@@ -1,0 +1,42 @@
+.caja-usuario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajainterfaz h2{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px orange;
+    margin-bottom: 40px;
+}
+
+
+.caja-interfaz{
+    display:flex;
+    flex-direction: column;
+    border: solid 1px orange;
+    padding: 10px 30px;
+}
+
+.caja-interfaz h3{
+    padding: 30px 30px;
+}
+
+.caja-interfaz h3 a{
+   color: gray;
+}
+
+.fotoperfil{
+    width: 60%;
+}
+
+.fotoperfil h3{
+    display: flex;
+    border-bottom: solid 1px orange;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logo-usua{
+    padding-top: 70px;
+}

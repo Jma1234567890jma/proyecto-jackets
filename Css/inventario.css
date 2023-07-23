@@ -1,0 +1,24 @@
+.caja-inve2{
+    border: solid 1px;
+    width: 100%;
+}
+
+.lista-invent{
+    
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border-top: solid 1px;
+
+}
+
+
+
+.lista-invent li{
+    padding: 7px 0;
+}
+
+.icono-img{
+    color: orange;
+}
+

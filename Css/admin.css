@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    height:60px ;
+    background-color: rgba(255, 166, 0, 0.745);
+
+}
+
+.barra1{
+    padding: 0 10px;
+    border-right:solid 1px ;
+    
+}
+
+.barra2{
+    list-style: none;
+    display: flex;
+    border-left: solid 1px;
+    padding: 0 10px;
+}
+
+.barra2 li{
+    padding: 0 10px;
+}
+
+.barra2 a{
+    text-decoration: none;
+    color: #333;
+}
+
+.logo-admin{
+    height: 50px;
+    border-radius: 60%;
+    padding: 0 10px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+
+}
+
+.caja3{
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    width: 25%;
+}
+
+.adminis{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 80px;
+    padding: 5px 0;
+    border-bottom: solid 1px;
+    background-color: aliceblue;
+
+}
+
+.lg{
+    display: flex;
+    line-height: 60px;
+    height: 60px;
+
+}
+
+.la{
+    display: flex;
+    justify-content: center;
+}
+
+.listaopciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+    list-style: none;
+}
+
+.listaopciones a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding:10px;
+    border-top: solid 1px #333;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 10px;
+    align-items: center;
+    border: solid 1px;
+}
+
+.container2 h2{
+    margin:30px 0;
+    font-size: 35px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.cajaspe{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    height: 50px;
+    padding: 15px 10px;
+    margin: 10px 10px;
+}
+
+.cajaspe a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+.link{
+    color: rgb(69, 68, 68);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+.menu2{
+    padding: 10px 40px;
+}

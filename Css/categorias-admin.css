@@ -1,0 +1,24 @@
+.cajainfo-admin h2{
+    margin:30px 0;
+}
+
+.cajainfo1-admin a{
+    text-decoration: none;
+    color: #363232e3;
+}
+
+.cajainfo1-admin h3{
+    padding-bottom: 10px ;
+}
+
+.editor-cate{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.editor-cate1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

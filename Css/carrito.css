@@ -1,0 +1,78 @@
+.titulo-carrito{
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.carrito-detalle{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgba(241, 148, 8, 0.557);
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    margin-top: 5px ;
+}
+
+.detalles-carro{
+    display: flex;
+    margin:3px;
+    width:100%;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+
+.detalles-carro img{
+    height: 100px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#cantidad{
+    height: 20px;
+    margin-top:55px;
+}
+
+#talla{
+    height: 20px;
+    margin-top:55px;
+}
+
+.agregar-pagar{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(254, 216, 165);
+    align-content: center;
+}
+
+#botonseguircomprando{
+    height: 30px;
+    background-color: orange;
+    border-radius: 4px;
+
+}
+
+.total-compra{
+    border: solid 1px;
+    border-radius: 3px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 7.5px;
+    padding: 0 4px;
+    background-color: orange;
+}
+
+#boton-comprar{
+    height: 30px;
+    background-color: orange;
+    border-radius: 4px;
+}

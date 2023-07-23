@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>envio</title>
+    <script src="https://kit.fontawesome.com/7c3a91a320.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/Encabezado.css">
+    <link rel="stylesheet" href="Css/pago.css">
+    <style>
+        .messenger-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        
+        .messenger-section img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+        <a href="usuario-interfaz.html" class="logo-nav-link">
+          <img src="Imagenes/logo-usuario.jpg" alt="logo usuario">
+        </a>
+        <div class="Buscar">
+          <input type="text" placeholder="Buscar">
+         <button >Buscar</button>
+      </div>
+        <button class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+          <ul class="nav-menu">
+          <li class="nav-menu-item-nav-link"><a href="inicio2.html" class="nav-menu-link nav-menu-link_active">Inicio</a></li>
+        <li class="nav-menu-item-nav-link"><a href="categorias.html" class="nav-menu-link nav-menu-link_active">Categoria</a></li>
+          <li class="nav-menu-item-nav-link"><a href="carito-de-compras.html" class="nav-menu-link nav-menu-link_active">Carrito</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="caja-envio">
+            <ul class="orden">
+        <div class="titulo"><h2 class="titulo-envio">Informacion para el envio</h2></div>
+
+        <form action="recibe.php" method="post">
+            <h4 class="datos"><strong>Nombre Completo:</strong>
+            </h4>
+            <ul class="nombre-apellido">
+                <div class="inputbox">
+            <input type="text" name="usuario" id="usuarioInput" required="required">
+                <span>Nombres</span>
+                <i></i>
+           </div>
+           <div class="inputbox">
+            <input type="text" name="contraseña" id="contraseñaInput" required="required">
+            <span>Apellidos</span>
+            <i></i>
+           </div></ul>
+
+           <h4 class="datos"><strong>Direccion:</strong></h4>
+
+           <ul class="nombre-apellido">
+            <div class="inputbox">
+            <input type="text" name="usuario" id="usuarioInput" required="required">
+                <span>Direccion</span>
+                <i></i>
+           </div>
+           <div class="inputbox">
+            <input type="text" name="contraseña" id="contraseñaInput" required="required">
+            <span>Ciudad</span>
+            <i></i>
+           </div>
+                <div class="inputbox">
+         <input type="text" name="usuario" id="usuarioInput" required="required">
+            <span>localidad</span>
+                <i></i>
+               </div>
+               <div class="inputbox">
+                <input type="number" name="contraseña" id="contraseñaInput" required="required">
+                <span>Codigo Postal</span>
+                <i></i>
+               </div>
+            </ul>
+
+
+            <h4 class="datos"><strong>Telefono:</strong></h4>
+           <ul class="nombre-apellido">
+            <div class="inputbox">
+            <input type="number" name="usuario" id="usuarioInput" required="required">
+                <span>Movil</span>
+                <i></i>
+           </div>
+
+           <div class="inputbox">
+            <input type="text" name="usuario" id="usuarioInput" required="required">
+                <span>Correo</span>
+                <i></i>
+           </div>
+
+           <div class="inputbox">
+            <input type="number" name="contraseña" id="contraseñaInput" required="required">
+            <span>Fijo</span>
+            <i></i>
+           </div></ul>
+
+           <h4 class="datos"><strong>Nota:</strong></h4>
+           <ul class="nombre-apellido">
+            <div class="inputbox">
+                <textarea name="nota" id="nota-envio" cols="30" rows="10"></textarea>
+                <i></i>
+           </div>
+
+        </form>
+    </ul>
+<div class="metododeenvio">
+    <h2 class="metodo-envio-titulo">Metodo de envio</h2>
+    <div class="caja-de-envio">
+            <div class="caja-de-opciones">
+                <img src="Imagenes/servi.logo.png" alt="logo">
+                Selecionar
+                <label>
+                    <input type="radio" name="metodo-envio" value="metodo1">
+                </label>
+            </div>
+
+            <div class="caja-de-opciones">
+                <img src="Imagenes/envia-logo.png" alt="logo">
+                Selecionar
+                <label>
+                    <input type="radio" name="metodo-envio" value="metodo2">
+                </label>
+            </div>
+
+            <div class="caja-de-opciones">
+                <img src="Imagenes/coordinara-logo.png" alt="logo">
+                Selecionar
+                <label>
+                    <input type="radio" name="metodo-envio" value="metodo3">
+                </label>
+            </div>
+
+            <div class="caja-de-opciones">
+                <img src="Imagenes/tcc-logo.png" alt="logo">
+                Selecionar
+                <label>
+                    <input type="radio" name="metodo-envio" value="metodo1">
+                </label>
+            </div>
+</div>
+</div>
+
+    <div class="continuar-cancelar">
+    <button>
+        <a href="metodo-de-envio.html" class="continuar">Cancelar</a>
+    </button>
+
+    <button>
+        <a href="metodo-de-envio.html" class="continuar">Continuar</a>
+    </button>
+
+</div>
+        </div>
+
+        
+
+    </main>
+    <footer>
+      <div class="end">
+        <h5>Sale of Jackets. Lo Mejor En Estilos</h5>
+      </footer>
+</body>

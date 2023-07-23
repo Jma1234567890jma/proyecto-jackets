@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <script src="https://kit.fontawesome.com/7c3a91a320.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/Encabezado.css">
+    <link rel="stylesheet" href="Css/carrito.css">
+    <script defer src="css/inicio.js">
+    </script>
+    
+</head>
+<body>
+    <script src="Css/carrito.js"></script>
+    <header>
+        <nav class="nav">
+        <a href="#" class="logo-nav-link">
+          <img src="Imagenes/logo-usuario.jpg" alt="logo usuario">
+        </a>
+        <div class="Buscar">
+          <input type="text" placeholder="Buscar">
+         <button ><i class="fas fa-search"></i></button>
+      </div>
+        <button class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+          <ul class="nav-menu">
+          <li class="nav-menu-item-nav-link"><a href="inicio2.html" class="nav-menu-link nav-menu-link_active"><i class="fas fa-home"></i></a></li>
+          <li class="nav-menu-item-nav-link"><a href="carito-de-compras.html" class="nav-menu-link nav-menu-link_active"><i class="fas fa-shopping-cart"></i></a></li>
+        <li class="nav-menu-item-nav-link"><a href="categorias.html" class="nav-menu-link nav-menu-link_active">Categoria</a></li>
+          <li class="nav-menu-item-nav-link"><a href="nosotro.html" class="nav-menu-link nav-menu-link_active">Nosotros</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h3 class="titulo-carrito">
+            Tu Carrito
+        </h3>
+
+        <ul class="carrito-detalle">
+            <li class="detalles-carro">
+                <img src="Imagenes/producto.jpeg" alt="producto1">
+            </li>
+
+            <li class="detalles-carro">
+                Producto #1
+            </li>
+<li class="detalles-carro">
+    <label for="talla">Talla:</label>
+<select id="talla" name="talla">
+  <option value="S">S</option>
+  <option value="M">M</option>
+  <option value="L">L</option>
+  <option value="XL">XL</option>
+</select>
+</li>
+
+            <li class="detalles-carro">
+                $24.99
+            </li>
+            <li class="detalles-carro">
+                <label for="cantidad">Cantidad:</label>
+<input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1">
+            </li>
+
+            <li class="detalles-carro">
+                <label for="">Subtotal:</label>
+                <div id="resultado">
+                </div>
+            </li>
+
+            <li class="detalles-carro">
+                <span class="eliminar-producto"><i class="fas fa-times"></i></span>
+              </li>
+
+        </ul>
+
+            <ul class="carrito-detalle">
+                <li class="detalles-carro">
+                    <img src="Imagenes/producto10.jpeg" alt="producto1">
+                </li>
+    
+                <li class="detalles-carro">
+                    Producto #2
+                </li>
+    <li class="detalles-carro">
+        <label for="talla">Talla:</label>
+    <select id="talla" name="talla">
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+    </select>
+    </li>
+    
+                <li class="detalles-carro">
+                    $24.99
+                </li>
+                <li class="detalles-carro">
+                    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1">
+                </li>
+    
+                <li class="detalles-carro">
+                    <label for="">Subtotal:</label>
+                    <div id="resultado">
+                    </div>
+                </li>
+    
+                <li class="detalles-carro">
+                    <span class="eliminar-producto"><i class="fas fa-times"></i></span>
+                  </li>
+    
+            </ul>
+
+            <ul class="carrito-detalle">
+                <li class="detalles-carro">
+                    <img src="Imagenes/producto.jpeg" alt="producto1">
+                </li>
+    
+                <li class="detalles-carro">
+                    Producto #3
+                </li>
+    <li class="detalles-carro">
+        <label for="talla">Talla:</label>
+    <select id="talla" name="talla">
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+    </select>
+    </li>
+    
+                <li class="detalles-carro">
+                    $24.99
+                </li>
+                <li class="detalles-carro">
+                    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1">
+                </li>
+    
+                <li class="detalles-carro">
+                    <label for="">Subtotal:</label>
+                    <div id="resultado">
+                    </div>
+                </li>
+    
+                <li class="detalles-carro">
+                    <span class="eliminar-producto"><i class="fas fa-times"></i></span>
+                  </li>
+    
+            </ul>
+
+            <ul class="agregar-pagar">
+                <li class="agregar"> <button id="botonseguircomprando"> <span><i class="fas fa-shopping-cart"></i></span><a href="inicio2.html">Seguir comprando</a></button></li>
+                <div class="total-compra">
+                    Total: $79.97
+                </div>
+                <li class="pagar"><button id="boton-comprar"><a href="pago.html">Comprar</a></button>
+                </li>
+            </ul>
+
+
+    </main>
+      <footer>
+        <div class="end">
+          <h5>Sale of Jackets. Lo Mejor En Estilos</h5>
+        </div>
+      </footer>
+</body>
+</html>

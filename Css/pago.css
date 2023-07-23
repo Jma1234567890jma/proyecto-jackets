@@ -1,0 +1,126 @@
+header{
+    z-index: 11;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-envio {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitulo-pago {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.datos {
+    color: #555;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inputbox span {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 14px;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.inputbox input:focus + span,
+.inputbox input:valid + span {
+    top: 0;
+    transform: translateY(0);
+    font-size: 12px;
+    color: #333;
+}
+
+.boton-enviar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.boton-enviar:hover {
+    background-color: #45a049;
+}
+
+
+.continuar-cancelar{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+    background:#fdae0558;
+    height: 40px;
+    padding: 20px;
+   
+}
+
+.continuar-cancelar button{
+    font-style: italic;
+    font-size: 20px;
+    height: 28px;
+    background-color: orange;
+    border-radius: 3px;
+}
+
+.metododeenvio{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.caja-de-opciones{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+
+.caja-de-envio{
+    display: flex;
+
+}
+
+.caja-de-opciones img{
+    height: 90px;
+}

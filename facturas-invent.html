@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <script src="https://kit.fontawesome.com/7c3a91a320.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/admin.css">
+    <link rel="stylesheet" href="Css/factura-inven.css">
+</head>
+<body>
+    <header>
+        <div class="barra1">
+            <h2>Sale Of Jackects</h2>
+        </div>
+        <div class="barra2">
+            <li class="barra21"><a href="inici">Salir</a></li>
+            <li class="barra21"><h4>Pepito Perez</h4></li>
+            <li class="barra21"><img src="imagenes/logo.jpg" alt="" class="logo-admin"></li>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="caja3">
+            <div class="adminis">
+            <li class="lg"><img src="imagenes/logo.jpg" alt="logo" class="logo-admin">
+                <label>Pepito Perez</label>
+            </li>
+                <li class="la">
+                Admin</li>
+            </div>
+            <ul class="listaopciones">
+                <a href="principal.html" class="link">
+                    <li class="contain">Principal</li>
+                </a><a href="administradores.html" class="link">
+                    <li class="contain">Administradores</li>
+                </a><a href="clientes.html" class="link">
+                    <li class="contain">Clientes</li>
+                </a><a href="categories.html" class="link">
+                    <li class="contain">Categorias</li>
+                </a><a href="productos.html" class="link">
+                    <li class="contain">Productos</li>
+                </a><a href="inventario.html" class="link">
+                    <li class="contain">Inventario</li>
+                </a><a href="ventas.html" class="link">
+                    <li class="contain">Ventas</li>
+                </a><a href="ajustes.html" class="link">
+                    <li class="contain">Ajustes</li>
+                </a>
+            </ul>
+        </div>
+        <div class="container2">
+            <div class="caja-factura">
+                <h2 class="factura-titulo">Factura</h2>
+                <div class="cajaf">
+                <li>Fecha: 07/06/2023</li>
+                <li>Codigo: 000991</li>
+            </div>
+                <div>
+                    <h3>Información del Cliente</h3>
+                    <p>Nombre: Juan Perez</p>
+                    <p>Dirección: Calle Principal, 123</p>
+                    <p>Telefono: 3134560999</p>
+                    <p>Nota: Entregar a la señora pepita perez por que me encuentro trabajando.</p>
+                </div>
+                <div>
+                    <h3>Detalle de la Factura</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="columna">Descripción</th>
+                                <th class="columna">Cantidad</th>
+                                <th class="columna">Precio Unitario</th>
+                                <th class="columna">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="columna">Producto 1</td>
+                                <td class="columna">1</td>
+                                <td class="columna">10.00</td>
+                                <td class="columna">10.00</td>
+                            </tr>
+                            <tr>
+                                <td class="columna">Producto 2</td>
+                                <td class="columna">2</td>
+                                <td class="columna">15.00</td>
+                                <td class="columna">30.00</td>
+                            </tr>
+                            <tr>
+                                <td class="columna">Producto 3</td>
+                                <td class="columna">3</td>
+                                <td class="columna">15.00</td>
+                                <td class="columna">45.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3>Totales</h3>
+                    <p>Subtotal: 85.00</p>
+                    <p>Impuestos: 6.00</p>
+                    <p>Total: 91.00</p>
+                </div>
+                <div class="guardarimprimir">
+            <a href="ventas.html"><button class="guardar">Atras</button></a>
+            <button class="guardar">Imprimir</button>
+            <button class="guardar">guardar</button>
+            
+            </div>
+            
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

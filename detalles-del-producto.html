@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="Css/detalles-del-producto.css">
+  <link rel="stylesheet" href="Css/Encabezado.css">
+  <script src="https://kit.fontawesome.com/7c3a91a320.js" crossorigin="anonymous"></script>
+  <script defer src="Css/inicio.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+    <a href="#" class="logo-nav-link">
+      <img src="Imagenes/logo-usuario.jpg" alt="logo usuario">
+    </a>
+    <div class="Buscar">
+      <input type="text" placeholder="Buscar">
+     <button >Buscar</button>
+  </div>
+    <button class="nav-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+      <ul class="nav-menu">
+        <li class="nav-menu-item-nav-link"><a href="inicio2.html" class="nav-menu-link nav-menu-link_active"><i class="fas fa-home"></i></a></li>
+        <li class="nav-menu-item-nav-link"><a href="carito-de-compras.html" class="nav-menu-link nav-menu-link_active"><i class="fas fa-shopping-cart"></i></a></li>
+      <li class="nav-menu-item-nav-link"><a href="categorias.html" class="nav-menu-link nav-menu-link_active">Categoria</a></li>
+        <li class="nav-menu-item-nav-link"><a href="nosotro.html" class="nav-menu-link nav-menu-link_active"></a></li>
+    </ul>
+    </nav>
+</header>
+<main>
+<main>
+    <div class="caja-descripcion">
+        <ul class="imagen-producto">
+            <img src="Imagenes/producto7.jpeg" alt="imagendelprocduto">
+        </ul><strong>
+<ul class="detalle-producto">           
+    <li class="descripcion"><h3 class="nombre-producto">producto1</h3></li>
+    <li class="descripcion">$/24.99</li>
+    <li class="descripcion">Composicion: 100% Algodon</li>
+    <li class="descripcion"><div class="talla">
+        <label for="talla">Selecciona tu talla:</label>
+        <select id="talla" name="talla">
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </div></li>
+    <li class="descripcion"><div class="color">
+        <label for="color">Selecciona un color:</label>
+        <select id="color" name="color">
+          <option value="rojo">Rojo</option>
+          <option value="azul">Azul</option>
+          <option value="verde">Verde</option>
+          <option value="amarillo">Amarillo</option>
+          <option value="negro">Negro</option>
+        </select>
+      </div>
+      </li>
+    <li class="descripcion"><div class="cantidad">
+        <label for="cantidad">Cantidad:</label>
+        <div class="cantidad-input">
+          <button class="cantidad-btn" id="cantidad-decrement">-</button>
+          <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1">
+          <button class="cantidad-btn" id="cantidad-increment">+</button>
+        </div>
+      </div>
+      </li>
+    <li class="descripcion"></li>
+    <li class="descripcion"></li>
+</strong></ul>
+</div>
+<ul class="agregar-pagar">
+    <li class="agregar"> <button id="botonseguircomprando"> <span><i class="fas fa-shopping-cart"></i></span><a href="inicio2.html">Seguir Comprando</a></button></li>
+    <li class="pagar"><button id="boton-comprar"><a href="carito-de-compras.html">Comprar</a></button>
+    </li>
+</ul>
+</main>
+<footer>
+    <div class="end pie-de-pagina">
+      <h5>Sale of Jackets. Lo Mejor En Estilos</h5>
+    </div>
+  </footer>
+
+</body>

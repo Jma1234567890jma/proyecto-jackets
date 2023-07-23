@@ -1,0 +1,109 @@
+.cajapago{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo-efecty{
+    height: 200px;
+}
+
+.caja1{
+    border: solid orange 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.caja1 h3{
+    padding: 10px;
+    background-color: orange;
+
+    width: 100%;
+}
+
+.caja1 h5{
+    display:flex;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: orange;
+    width: 90%;
+}
+
+.caja1 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.caja1 ul li{
+    padding: 10px;
+    color: grey;
+}
+
+.caja21{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.caja2{
+    border: solid orange 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 340px;
+}
+
+.caja2 h3{
+    padding: 10px;
+    background-color: orange;
+    width: 100%;
+}
+
+.lineas{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.caja2 ul{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    list-style: none;
+}
+
+.caja2 ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+.seguirinicio{
+    display: flex;
+    padding-top: 111px;
+    justify-content: space-between;
+}
+
+.seguirinicio button{
+    padding: 7px;
+    color: aliceblue;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+
+
+

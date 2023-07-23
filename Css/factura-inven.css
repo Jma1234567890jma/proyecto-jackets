@@ -1,0 +1,42 @@
+.caja-factura{
+    border: solid;
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+.factura-titulo{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.cajaf{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+div h3{
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+}
+
+.columna{
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.guardarimprimir{
+    display: flex;
+    justify-content: center;
+}
+
+.guardar{
+    padding: 5px;
+    margin: 5px;
+}
+
+div p{
+    padding: 5px;
+}

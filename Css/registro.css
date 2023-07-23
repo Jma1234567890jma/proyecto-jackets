@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 45px;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    color: orange;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.titulo-registro{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+
+}
+
+.registro-usuario{
+    display: flex;
+    justify-content: center;
+}
+
+.registro-ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: orange;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 100%;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 35px;
+    border:solid;
+
+}
+
+.campos li{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+   
+}
+
+.campos li input{
+    margin-left: 35px;
+}
+
+.campos li select{
+    margin-left: 35px;
+}

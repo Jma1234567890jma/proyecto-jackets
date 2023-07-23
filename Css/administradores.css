@@ -1,0 +1,95 @@
+.cajainfo-admin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.logoinfo{
+    height: 90px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cajainfo1-admin{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.editor{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajainfo1-admin ul{
+    list-style: none;
+}
+
+.cajainfo1-admin ul li{
+    padding: 8px;
+    border-bottom:solid 1px orange ;
+}
+
+.cajainfo1-admin ul li input{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+
+
+
+.esquina-admin{
+    width: 25%;
+    padding: 10px;
+}
+
+.caja01{
+    padding: 20px;
+    border: solid 1px;
+}
+
+.caja01 h2{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid 1px orange;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cajaadmin{
+    list-style: none;
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom:30px;
+}
+
+.opcionesadmin{
+    padding: 10px;
+}
+
+
+
+.linksadmin{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(90, 88, 88);
+    
+}
+
+.linksadmin:hover{
+    color: orange;
+}
+
+.agre{
+    display: flex;
+    justify-content: center;
+}
+
+.icono{
+    color: orange;
+}

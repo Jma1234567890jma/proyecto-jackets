@@ -1,0 +1,67 @@
+.visualisar{
+    background: rgba(234, 234, 4, 0.315);
+}
+
+.caja-descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+
+}
+
+.imagen-producto{
+    list-style: none;
+     margin-right: 40px;
+     border-radius: 3px;
+}
+
+.detalle-producto{
+    list-style: none;
+    height: auto;
+    padding: 10px;
+}
+
+.nombre-producto{
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 30px;
+     background-color: orange;
+     justify-content: center;
+
+}
+
+.descripcion{
+    margin-bottom: 20px;
+    font-style:italic;
+}
+
+.agregar-pagar{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+}
+
+#botonseguircomprando{
+    height: 30px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-right: 100px;
+
+}
+
+#boton-comprar{
+    height: 30px;
+    background-color: orange;
+    border-radius: 4px;
+    margin-left: 100px;
+}
+
+.pie-de-pagina{
+    margin-top: 117px;
+}

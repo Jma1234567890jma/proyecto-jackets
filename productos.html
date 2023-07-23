@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <script src="https://kit.fontawesome.com/7c3a91a320.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/admin.css">
+    <link rel="stylesheet" href="Css/producto2.css">
+</head>
+<body>
+    <header>
+        <div class="barra1">
+            <h2>Sale Of Jackects</h2>
+        </div>
+        <div class="barra2">
+            <li class="barra21"><a href="Inicio.html">Salir</a></li>
+            <li class="barra21"><h4>Pepito Perez</h4></li>
+            <li class="barra21"><img src="imagenes/logo.jpg" alt="" class="logo-admin"></li>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="caja3">
+            <div class="adminis">
+            <li class="lg"><img src="imagenes/logo.jpg" alt="logo" class="logo-admin">
+                <label>Pepito Perez</label>
+            </li>
+                <li class="la">
+                Admin</li>
+            </div>
+            <ul class="listaopciones">
+                <a href="principal.html" class="link">
+                    <li class="contain">Principal</li>
+                </a><a href="administradores.html" class="link">
+                    <li class="contain">Administradores</li>
+                </a><a href="clientes.html" class="link">
+                    <li class="contain">Clientes</li>
+                </a><a href="categories.html" class="link">
+                    <li class="contain">Categorias</li>
+                </a><a href="productos.html" class="link">
+                    <li class="contain">Productos</li>
+                </a><a href="inventario.html" class="link">
+                    <li class="contain">Inventario</li>
+                </a><a href="ventas.html" class="link">
+                    <li class="contain">Ventas</li>
+                </a><a href="ajustes.html" class="link">
+                    <li class="contain">Ajustes</li>
+                </a>
+            </ul>
+        </div>
+        <div class="cont">
+            <div class="caj1">
+                <div class="caj12">
+                <li><i class="fas fa-shopping-bag icono-pro" style= "font-size: 40px;"></i>
+                </li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nemo aliquid dolores. Officia quis nesciunt iste enim! Nihil quo, neque, temporibus at nemo aspernatur quod nam commodi doloremque earum minima!</li></ul>
+            </div>
+                <div class="new">
+                    <li><a class="colo" href="productos.html">Nuevo</a></li>
+                    <li><a class="blac" href="list.html">Lista</a></li>
+                </div>
+            </div>
+            <div class="caj2">
+                <h3>Nuevo Producto</h3>
+                <div class="divi">
+                    <div class="b1">
+                        <h4>Informacion Basica</h4>
+                        <ul>
+                        <li>Cod. <input type="number"></li>
+                        <li>Nombre <input type="text"></li>
+                    </ul>
+                    <ul>
+                       <li> <select id="menu">
+                            <option value="">Categoria</option>
+                            <optgroup label="Categorias">
+                              <option value="servicio1">Hombre</option>
+                              <option value="servicio2">Mujer</option>
+                              <option value="servicio3">Niño</option>
+                              <option value="contacto">Niña</option>
+                            </optgroup>
+                          </select>
+                        </li>
+                          <li><select id="menus">
+                            <option value="">Sub-Categoria</option>
+                            <optgroup label="Sub-Categorias">
+                              <option value="servicio1">Chaquetas De Cuero</option>
+                              <option value="servicio2">Chaquetas De Invierno</option>
+                              <option value="servicio3">Chaquetas Impermeables</option>
+                              <option value="contacto">Chaquetas Deportivas</option>
+                            </optgroup>
+                          </select></li>
+                    </ul>
+
+                    <ul>
+                        <h4>Unidades Y Precio</h4>
+                        <li>Unidades <input type="number"></li>
+                        <li>Precio $<input type="number"></li>
+                    </ul>
+                    </div>
+                    <div class="b2">
+                        <ul>
+                            <h4>
+                                Descripciones
+                            </h4>
+
+                            <li>Talla <input type="number"></li>
+                            <li>Marca <input type="text"></li>
+                            <li>Color <input type="text"></li>
+                            <li>img. <input type="file" id="archivo" name="archivo"></li>
+                        </ul>
+                        <div class="butt">
+                        <button><a href="list.html">Agregar</a></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

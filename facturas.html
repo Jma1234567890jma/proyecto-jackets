@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+
+  <link rel="stylesheet" href="css/inicio2.css">
+  <link rel="stylesheet" href="Css/producto.css">
+  <link rel="stylesheet" href="Css/Encabezado.css">
+  <link rel="stylesheet" href="Css/factura.css">
+  <script src="https://kit.fontawesome.com/7c3a91a320.js" crossorigin="anonymous"></script>
+  <script defer src="Css/inicio.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+    <a href="#" class="logo-nav-link">
+      <img src="Imagenes/logo-usuario.jpg" alt="logo usuario">
+    </a>
+    <div class="Buscar">
+      <input type="text" placeholder="Buscar">
+     <button >Buscar</button>
+  </div>
+    <button class="nav-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+      <ul class="nav-menu">
+        <li class="nav-menu-item-nav-link"><a href="inicio2.html" class="nav-menu-link nav-menu-link_active"><i class="fas fa-home"></i></a></li>
+        <li class="nav-menu-item-nav-link"><a href="carito-de-compras.html" class="nav-menu-link nav-menu-link_active"><i class="fas fa-shopping-cart"></i></a></li>
+      <li class="nav-menu-item-nav-link"><a href="categorias.html" class="nav-menu-link nav-menu-link_active">Categoria</a></li>
+        <li class="nav-menu-item-nav-link"><a href="nosotro.html" class="nav-menu-link nav-menu-link_active">Nosotros</a></li>
+    </ul>
+    </nav>
+</header>
+
+<main></main>
+    <div class="caja-factura">
+    <h2 class="factura-titulo">Factura</h2>
+    <div class="cajaf">
+    <li>Fecha: 07/06/2023</li>
+    <li>Codigo: 000991</li>
+</div>
+    <div>
+        <h3>Información del Cliente</h3>
+        <p>Nombre: Juan Perez</p>
+        <p>Dirección: Calle Principal, 123</p>
+        <p>Telefono: 3134560999</p>
+        <p>Nota: Entregar a la señora pepita perez por que me encuentro trabajando.</p>
+    </div>
+    <div>
+        <h3>Detalle de la Factura</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th class="columna">Descripción</th>
+                    <th class="columna">Cantidad</th>
+                    <th class="columna">Precio Unitario</th>
+                    <th class="columna">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="columna">Producto 1</td>
+                    <td class="columna">1</td>
+                    <td class="columna">10.00</td>
+                    <td class="columna">10.00</td>
+                </tr>
+                <tr>
+                    <td class="columna">Producto 2</td>
+                    <td class="columna">2</td>
+                    <td class="columna">15.00</td>
+                    <td class="columna">30.00</td>
+                </tr>
+                <tr>
+                    <td class="columna">Producto 3</td>
+                    <td class="columna">3</td>
+                    <td class="columna">15.00</td>
+                    <td class="columna">45.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>Totales</h3>
+        <p>Subtotal: 85.00</p>
+        <p>Impuestos: 6.00</p>
+        <p>Total: 91.00</p>
+    </div>
+    <div class="guardarimprimir">
+<button class="guardar">Imprimir</button>
+<button class="guardar">guardar</button>
+</div>
+
+</div>
+</body>
+</html>
